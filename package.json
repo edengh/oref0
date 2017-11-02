@@ -1,6 +1,6 @@
 {
   "name": "oref0",
-  "version": "0.5.0-dev",
+  "version": "0.6.0-dev4",
   "description": "openaps oref0 reference implementation of the reference design",
   "scripts": {
     "test": "make test",
@@ -26,6 +26,7 @@
     "mm-format-ns-pump-history": "./bin/mm-format-ns-pump-history.sh",
     "mm-format-ns-treatments": "./bin/mm-format-ns-treatments.sh",
     "mm-stick": "./bin/mm-stick.sh",
+    "monitor-xdrip": "./bin/monitor-xdrip.sh",
     "nightscout": "./bin/nightscout.sh",
     "ns-dedupe-treatments": "./bin/ns-dedupe-treatments.sh",
     "ns-get": "./bin/ns-get.sh",
@@ -58,6 +59,7 @@
     "oref0-log-shortcuts": "./bin/oref0-log-shortcuts.sh",
     "oref0-mdt-trend": "./bin/oref0-mdt-trend.js",
     "oref0-meal": "./bin/oref0-meal.js",
+    "oref0-ns-loop": "./bin/oref0-ns-loop.sh",
     "oref0-normalize-temps": "./bin/oref0-normalize-temps.js",
     "oref0_nightscout_check": "./bin/oref0_nightscout_check.py",
     "oref0-online": "./bin/oref0-online.sh",
@@ -73,8 +75,8 @@
     "oref0-setup": "./bin/oref0-setup.sh",
     "oref0-subg-ww-radio-parameters": "./bin/oref0-subg-ww-radio-parameters.sh",
     "oref0_subg_ww_radio_parameters.py": "./bin/oref0_subg_ww_radio_parameters.py",
-    "oref0-template": "./bin/oref0-template.js",
     "oref0-truncate-git-history": "bin/oref0-truncate-git-history.sh",
+    "oref0-upload-entries": "./bin/oref0-upload-entries.sh",
     "oref0-upload-profile": "./bin/oref0-upload-profile.js",
     "peb-urchin-status": "./bin/peb-urchin-status.sh",
     "wifi": "./bin/oref0-tail-wifi.sh"
